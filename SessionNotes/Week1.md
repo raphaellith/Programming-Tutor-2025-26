@@ -21,7 +21,7 @@
 1. In an array of integers, a "peak" is an element which is greater than or equal to the adjacent integers and a "valley" is an element which is less than or equal to the adjacent integers. Write a function that sorts an integer array into an alternating sequence of peaks and valleys.
 
 
-```
+```python
 # Q1
 def merge_two_sorted_arrays(a: list[int], b: list[int]) -> list[int]:
     pass
