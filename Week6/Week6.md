@@ -1,4 +1,4 @@
-# Week 1 (12 November)
+# Week 6 (12 November)
 
 ## Agenda
 
@@ -72,6 +72,8 @@ There are two approaches to this problem. The first one has $O(n \log{n})$ runti
 
 - **For an $O(n \log{n})$ runtime:** Suppose the input is sorted. How would you manipulate this sorted array to form an alternate sequence of peaks and valleys?
 - **For an $O(n)$ runtime:** For a linear runtime, we must not sort the array. Notice, however, that as long as the peaks are in place, then so are the valleys.
+
+
 
 ## Corrections and afterthoughts
 

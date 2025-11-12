@@ -1,4 +1,4 @@
-# Week 2 (19 November)
+# Week 7 (19 November)
 
 ## Agenda
 
