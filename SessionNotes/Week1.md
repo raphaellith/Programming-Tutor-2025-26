@@ -15,7 +15,7 @@
 1. Programming exercises
 
 
-## Programming Exercises: Sorting algorithms and asymptotic analysis
+## Programming Exercises
 
 ### Problem 1
 
@@ -59,3 +59,39 @@ You may use Python's built-in functions, like ```sorted(array)``` or ```array.so
 def sort_into_peaks_and_valleys(array: list[int]) -> list[int]:
     pass
 ```
+
+
+### Hints for Problem 1
+
+Consider the smallest integer across two sorted arrays ```a``` and ```b```. Where could this integer possibly be located?
+
+
+### Hints for Problem 2
+
+There are two approaches to this problem. The first one has $O(n \log{n})$ runtime, while the second one has $O(n)$ runtime.
+
+- **For an $O(n \log{n})$ runtime:** Suppose the input is sorted. How would you manipulate this sorted array to form an alternate sequence of peaks and valleys?
+- **For an $O(n)$ runtime:** For a linear runtime, we must not sort the array. Notice, however, that as long as the peaks are in place, then so are the valleys.
+
+## Corrections and afterthoughts
+
+### Correction: ```%d``` versus ```%p```
+
+This is a correction of my explanation during today's session!
+
+In C, ```%d``` and ```%p``` is a format specifier for printing integers and pointers respectively.
+
+**Never use ```%d``` to output a pointer.** While an ```int``` occupies 4 bytes of memory, a pointer may span either 4 or 8 bytes depending on the computer's architecture. Using ```%d``` to output a pointer is technically undefined behaviour in C.
+
+For the same reason, **never cast a pointer to an ```int```**, or vice versa.
+
+
+### Afterthought: How is Haskell useful?
+
+Compared to languages in other paradigms, Haskell is excellent at ensuring type safety. In Python, you might accidentally call a method on ```None```, and in C you might crash a program by dereferencing a null pointer. On the contrary, you'll never encounter anything like this in Haskell, making it significantly more reliable in (say) rapid application development, where you might not have the time to debug type errors.
+
+Haskell encourages programmers to split programs up into pure basic functions, which streamlines testing and increases readability. This also makes Haskell code much more concise and maintainable.
+
+In the real world, Haskell is commonly used for writing backend systems, processing data and designing hardware. The functional programming paradigm in general is also widely used in quantitative trading firms.
+
+
