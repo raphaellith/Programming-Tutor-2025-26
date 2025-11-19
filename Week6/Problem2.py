@@ -49,7 +49,7 @@ def sort_into_peaks_and_valleys3(array: list[int]) -> list[int]:
         if array[i + 1] > array[i - 1]:
             array[i], array[i + 1] = array[i + 1], array[i]
         else:
-            array[i - 1], array[i] = array[i - 1], array[i]
+            array[i - 1], array[i] = array[i], array[i - 1]
 
     return array
 
