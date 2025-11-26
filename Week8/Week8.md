@@ -30,7 +30,7 @@ class Node:
         self.val = val
         self.next = next
 
-def index_linked_list(node: Node, k: int) -> Node:
+def index_linked_list(node: Node, k: int) -> Node|None:
     pass
 ```
 
