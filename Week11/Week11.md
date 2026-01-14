@@ -74,3 +74,8 @@ It requires the following interface:
 
 - [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/description/)
 - [Max Area of Island](https://leetcode.com/problems/max-area-of-island/)
+
+
+### Correction: Max Area of Island
+
+In the session, I mentioned that the best way to solve Max Area of Island with union-find is to map each cell's position to a unique integer. This is incorrect - it would be much more elegant to use a hash map/ dictionary instead! See `MaxAreaOfIsland.py`.
