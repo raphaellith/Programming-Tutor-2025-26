@@ -21,3 +21,4 @@ Notes and resources for Programming Tutor sessions.
 ### Term 2
 
 - [My COMP0011 lecture notes](https://github.com/raphaellith/IntroductoryMathematicsForComputerScienceNotes) (Introductory Mathematics for Computer Science)
+- [Algorithms](https://archive.org/details/robert-sedgewick-kevin-daniel-wayne-algorithms-2011-addison-wesley) by Robert Sedgewick and Kevin Wayne
