@@ -1,4 +1,4 @@
-# Week 7 (19 November)
+# Session 2
 
 ## Agenda
 

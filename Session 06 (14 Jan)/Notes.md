@@ -1,4 +1,4 @@
-# Week 11 (14 Jan)
+# Session 6
 
 - Object-Oriented Programming: Introduction to Java
 - Algorithms: Union-find

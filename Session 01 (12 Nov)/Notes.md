@@ -1,4 +1,4 @@
-# Week 6 (12 November)
+# Session 1
 
 ## Agenda
 

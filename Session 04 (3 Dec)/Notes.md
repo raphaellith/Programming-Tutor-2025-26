@@ -1,4 +1,4 @@
-# Week 9 (3 December)
+# Session 4
 
 ## Stacks and queues
 

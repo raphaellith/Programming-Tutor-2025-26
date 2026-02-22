@@ -1,4 +1,4 @@
-# Week 8 (26 November)
+# Session 3
 
 ## Programming exercises
 

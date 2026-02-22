@@ -1,4 +1,4 @@
-# Week 13 (28 Jan)
+# Session 8
 
 Contents of this session:
 
